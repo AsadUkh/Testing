@@ -13,7 +13,7 @@ branching logic
 ssh for pushing code
 git branch
 git checkout
-
+reslving merge conflicts
 //deleting a remote branch --> git push origin -d test-1
 
 // git logs --oneline
