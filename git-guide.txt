@@ -1,0 +1,13 @@
+git add 
+git reset
+git revert
+git commit , amend
+git stash
+git pushh
+git fetch
+git pull 
+git merge
+git rebase
+gitignore
+branching logic
+ssh for pushing code
