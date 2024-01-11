@@ -11,3 +11,7 @@ git rebase
 gitignore
 branching logic
 ssh for pushing code
+git branch
+git checkout
+
+//deleting a remote branch --> git push origin -d test-1
