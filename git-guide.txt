@@ -36,3 +36,5 @@ git reset –mixed HEAD~1 or git reset HEAD~1 – This is the default command  w
 
 
 git revert is used to remove the commits from the remote repository.
+
+git revert <commit-id>
