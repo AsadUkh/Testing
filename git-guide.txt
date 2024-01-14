@@ -41,3 +41,5 @@ git revert <commit-id>
 feature -1
 
 local changes -->staging area --> commit --> push to rmeote repo 
+
+adding new chnages
