@@ -18,6 +18,13 @@ reslving merge conflicts
 
 // git logs --oneline
 
+Session #2 
+creating a brannch remote repo --> git fetch --> git branch -a
+
+git fetch --prune
+This command fetches the latest information from the remote repository and prunes (removes) any remote-tracking branches that no longer exist on the remote. After running this command, git branch -a should only show the branches that currently exist on the remote repository.
+
+git merge
 
 git rebase -i HEAD~2 interactive squash
 git push origin main --force
@@ -42,5 +49,3 @@ feature -1
 
 local changes -->staging area --> commit --> push to rmeote repo 
 
-adding new chnages
-updatinng ifle
