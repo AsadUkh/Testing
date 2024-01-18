@@ -1,0 +1,21 @@
+git merge
+
+
+1. Scenario  
+    git checkout main
+    git checkout -b feature
+    echo 'a' >> a.txt
+    git add .
+    git commit -m 'feature commit 1'
+    git push origin feature
+    git checkout main
+    echo 'b' >> b.txt
+    git add .
+    git commit -m 'main commit -1'
+    git push origin main
+    git checkout feature
+    echo 'c' >> c.txt
+    git add .
+    git commit -m 'feature commit-2'
+    git push origin feature
+    git checkout main

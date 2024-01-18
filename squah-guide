@@ -1,0 +1,13 @@
+Scenario
+
+git checkout main
+git add .
+echo 'a' >> a.txt
+git commit -m 'commit 1'
+echo 'b' >> b.txt
+git commit -m 'commit 2'
+git rebase -i HEAD~2
+git push origin main --force
+
+
+
