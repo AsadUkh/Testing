@@ -17,13 +17,16 @@ reslving merge conflicts
 //deleting a remote branch --> git push origin -d test-1
 
 // git logs --oneline
+#############################
+Session #2
 
-Session #2 
-creating a brannch remote repo --> git fetch --> git branch -a
+1 .creating a brannch remote repo --> git fetch --> git branch -a should list local and remote branches
 
-git fetch --prune
+2. deleting a remote branch then run git branch -a will still show branch 
+git fetch --prune --> git branch -a will give updated result
 This command fetches the latest information from the remote repository and prunes (removes) any remote-tracking branches that no longer exist on the remote. After running this command, git branch -a should only show the branches that currently exist on the remote repository.
 
+3. 
 git merge
 
 git rebase -i HEAD~2 interactive squash
