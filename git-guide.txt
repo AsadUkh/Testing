@@ -26,7 +26,7 @@ Session #2
 git fetch --prune --> git branch -a will give updated result
 This command fetches the latest information from the remote repository and prunes (removes) any remote-tracking branches that no longer exist on the remote. After running this command, git branch -a should only show the branches that currently exist on the remote repository.
 
-3. 
+3. create one branch --> add 2-3 commits --> checkout main --> git merge --> git push
 git merge
 
 git rebase -i HEAD~2 interactive squash
@@ -52,3 +52,4 @@ feature -1
 
 local changes -->staging area --> commit --> push to rmeote repo 
 
+ git log -5 --oneline --pretty
