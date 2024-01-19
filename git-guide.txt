@@ -37,12 +37,7 @@ git reset is used when we want to unstage a file and bring our changes back to t
  git reset can also be used to remove commits from the local repository.
 
 
-git reset –hard HEAD~1  remove commit and also remove all changes in this commit even from working directory
 
-git reset –soft HEAD~1 This command will remove the commit but would not unstage a file
-
-git reset –mixed HEAD~1 or git reset HEAD~1 – This is the default command  which removes the commit as well as 
-            unstages the file and our changes are stored in the working directory.
 
 
 git revert is used to remove the commits from the remote repository.

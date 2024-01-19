@@ -1,0 +1,18 @@
+Scenario 1
+    echo 'a' >> a.txt
+    git add a.txt //stage a file
+    git reset HEAD // will unstage it
+    Whenever we unstage a file, all the changes are kept in the working area.
+
+Scenario 2
+    echo 'a' >> a.txt
+    git add a.txt //stage a file
+    git commit -m 'testing git reset'
+    git reset HEAD~1 // it will undo recent commit and unstage file and changes will ve there in weorking directory
+  
+git reset –hard HEAD~1  remove commit and also remove all changes in this commit even from working directory
+
+git reset –soft HEAD~1 This command will remove the commit but would not unstage a file
+
+git reset –mixed HEAD~1 or git reset HEAD~1 – This is the default command  which removes the commit as well as 
+            unstages the file and our changes are stored in the working directory.
