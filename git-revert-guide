@@ -1,0 +1,7 @@
+    echo 'a' >> a.txt
+    git add .
+    git commit -m 'revert commit 1'
+    echo 'b' >> b.txt
+    git add .
+    git commit -m 'revert commit 2'
+    git push
