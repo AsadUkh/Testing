@@ -19,3 +19,9 @@ git merge
     git commit -m 'feature commit-2'
     git push origin feature
     git checkout main
+    git merge feature
+
+d9324e6 (HEAD -> main) Merge branch 'feature'
+24993fb (origin/feature, feature) feature commit-2
+efd9983 (origin/main, origin/HEAD) main commit -1
+0f723e0 feature commit 1
