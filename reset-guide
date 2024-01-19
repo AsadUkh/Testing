@@ -16,3 +16,11 @@ git reset –soft HEAD~1 This command will remove the commit but would not unsta
 
 git reset –mixed HEAD~1 or git reset HEAD~1 – This is the default command  which removes the commit as well as 
             unstages the file and our changes are stored in the working directory.
+Scennario 3 
+    echo 'a' >> a.txt
+    git add .
+    git commit -m 'test1'
+    echo 'b' >> b.txt
+    git add .
+    git commit -m 'test2'
+    git reset --hard HEAD~2
