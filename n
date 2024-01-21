@@ -30,17 +30,17 @@ Employee Manangement service
 
 
  feature --> MR PR              --> MR Merged main
-            review pipeline (code build mvn clean instal)
+            review pipeline (code build mvn clean install)
 
 review pipeline (code build--> code deploy (healthchecks) RED --> manual reviewers code owner)
 review pipeline (code build--> code deploy (healthchecks) Green --> manual reviewers code owner ->)
 
 
 deploy pipeline 
-review pipeline (code build--> code deploy (healthchecks) Green --> manual reviewers code owner ->dpeloy int higer)
+review pipeline (code build--> code deploy (healthchecks) Green --> manual reviewers code owner ->deploy into higher)
 
 review MR create/update
-MR merged into main/master / deploy
+MR merged into main/master --> deploy
 
 CICD
 CD
@@ -56,7 +56,7 @@ develop --> staging -->pre prod val -->prod
 21st jan sprint --> 25th stagign -->  26-27--> pre prod --> 28 release
 
 
-devewlop --> feature local testing --> develop dev environment --> dev MR --> staging (stringg ennvironnment)--> val - -> prod
+develop --> feature local testing --> develop dev environment --> dev MR --> staging (staging ennvironment)--> val - -> prod
 
 
 pheonix --> iris 3.4.5 3.42.--->
