@@ -14,8 +14,51 @@ int i=5;
 int =9;
 int d=12
 
+Monolith (CM,CusM,EMplyeeM, )
+UserManagement um . --> cm 
+Customer MAnagerment
+Card Managgement
+Employee Manangement
+
+Microservices
+
+Main SErver  service--> UserManagement--> response 
+UserManagement service call db ,service processing ,service 
+Card Managgement service
+Employee Manangement service
 
 
 
 
- 
+ feature --> MR PR              --> MR Merged main
+            review pipeline (code build mvn clean instal)
+
+review pipeline (code build--> code deploy (healthchecks) RED --> manual reviewers code owner)
+review pipeline (code build--> code deploy (healthchecks) Green --> manual reviewers code owner ->)
+
+
+deploy pipeline 
+review pipeline (code build--> code deploy (healthchecks) Green --> manual reviewers code owner ->dpeloy int higer)
+
+review MR create/update
+MR merged into main/master / deploy
+
+CICD
+CD
+
+main 
+feature  --> MR review > MR ready to merge  --> MR merged
+MR merged --> deploy pipeline 0.1.0 feature basic --> 0.2.0 advance 
+0.2.0 --> 0.2.1
+
+
+develop --> staging -->pre prod val -->prod
+
+21st jan sprint --> 25th stagign -->  26-27--> pre prod --> 28 release
+
+
+devewlop --> feature local testing --> develop dev environment --> dev MR --> staging (stringg ennvironnment)--> val - -> prod
+
+
+pheonix --> iris 3.4.5 3.42.--->
+iris 5-->
