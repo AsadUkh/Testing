@@ -12,3 +12,7 @@ int i=3 ;
 intn i=4;
 int i=5;
 int =9;
+int d=12
+
+
+ 
