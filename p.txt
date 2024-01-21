@@ -3,3 +3,8 @@ dfgdfghdf
 
 abc.log
 node_modules/
+
+CI
+Github action 
+jenkins --> vm ubuntunn ,centos ,mchinne ,container 
+
