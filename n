@@ -3,8 +3,7 @@ feature
 var a = 3
 for (int i =0 i< 5 ; i++)
 {
-    a=i+2;
-    a=i*4;
+
 
 }
 
@@ -62,6 +61,7 @@ devewlop --> feature local testing --> develop dev environment --> dev MR --> st
 
 pheonix --> iris 3.4.5 3.42.--->
 iris 5-->
+
 
 
 
